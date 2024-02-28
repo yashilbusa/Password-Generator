@@ -16,6 +16,7 @@ const App = () => {
     if (!includeUpperCase && !includeLowerCase && !includeNumbers && !includeSymbols) {
       notify("To generate password you must select atleast one checkbox", true)
     }
+    
     else {
       let characterList = ""
       if (includeNumbers) {
